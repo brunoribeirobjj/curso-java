@@ -13,7 +13,12 @@ public class WhileIndeterminado {
 		while(!valor.equalsIgnoreCase("sair")) {
 			System.out.print("Você diz: ");
 			valor = entrada.nextLine();
+			
+			
 		}
+	
+		entrada.close();
+	
 	}
-
+		
 }
